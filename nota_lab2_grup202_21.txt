@@ -1,0 +1,15 @@
+1) Implementar correctamente el código de lectura y creación de cursos, aulas, alumnos y profesores: 3pt
+2) Implementar correctamente el código de lectura y creación de conferencias, tareas e inscripciones: 3pt
+3) Vincular correctamente conferencias (con Curso/Aula), tareas (con Curso/Profesor) e inscripciones (con Curso/Estudiante): 1pt 
+4) Implementar correctamente dos consultas (por ejemplo, CoursesOfStudent y TeachersOfCourse): 2pt	
+5) Report 1pto	
+6) Final
+7) Factor de penalización por no compilar penaliza la calificación de "código" con un factor de 0,4, y no ejecutar penaliza con un factor de 0,7. Un 1 significa que no hubo penalización.
+8) Queries adicionales hasta 1 punto máximo.
+9) Nota final
+
+1       2        3       4       5       6      7     8        9
+3	3	1	2	0,5	9,5	1	0	9,5
+
+El report está incompleto, recordar añadir imagenes de los métodos que han implementado, tampoco se habla de los query.
+La ejecución del código es correcta.
