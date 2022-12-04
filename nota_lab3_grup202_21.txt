@@ -1,0 +1,17 @@
+1) Implementar correctamente el código para las clases: 2pt 
+2) Leer y crear regiones/sede/sede correctamente: 2pt 
+3) Vincular correctamente la sede y los head con el diseño restante (según el diagrama de clases): 2pt 
+4) Implementar correctamente los métodos genXQR y signUpX (X = Delegado/Regular): 2pt 
+5) Probando correctamente el código en un método principal: 1pt 
+6) Reporte 1pt.
+7) Nota final
+
+1    2      3      4      5     6      7
+2	1,5	1,5	1,5	0,4	1	7,9
+
+El report es correcto.
+En la creación de sigup de los miembros no se dan de alta en la lista de miembros, por lo tanto la función no sirve para añadir nuevos miembros a la lista.
+El programa principal está incompleto, no permite la comprobación de la creación de los qr y su correcto funcionamiento para toda la información solicitada.
+
+
+
