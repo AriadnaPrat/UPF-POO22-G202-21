@@ -1,0 +1,25 @@
+Interfaces Nameable and Comparable 2p	
+Class Entity: 3p (should inherit from interfaces, declare abstract method update)	
+Class Agent: 3p (relatively straightforward translation of Java code)	
+Main method for testing: 2p	
+Final
+20%	30%	30%	20%	100% penalización nota final
+2	2,5	1,5	0	6	0,7	4,2
+
+
+Clase Comparable y nameable correcto
+Clase Entity Falta declarar Comparable
+#include "Comparable.hpp"
+class Entity : public Nameable, Comparable<Entity> {
+
+
+Clase Agent. El método update no se tiene que declarar una nueva instancia de la clase Vec2D sino utilizar la existente. Lo mismo pasa para targetReached y isColliding. Por ejemplo:
+
+bool targetReached() {
+		Vec2D dv(target);
+		dv.subtract(pos);
+		double dist = dv.length();
+		return dist < radius;
+	}
+
+Programa princpal no creado, se penaliza la ejecución.
